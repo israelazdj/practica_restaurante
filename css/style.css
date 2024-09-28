@@ -1,0 +1,16 @@
+:root{
+    --color-primario: #fcb038;
+    --color-secundario: #fcb038;
+    --color-background:#eff6f5;
+    --color-texto: #a1a5a6;
+    --text-default: 'Open Sans';
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--text-default);
+}
+body{
+    background: var(--color-background);
+}
