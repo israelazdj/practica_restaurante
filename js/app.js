@@ -14,3 +14,9 @@ btnMenuOpen.addEventListener("click", function () {
 btnmenuclosed.addEventListener("click", function () {
   menuresponsive.classList.remove("active");
 });
+
+//cerrar menu con elementos de enlaces
+enlaces.addEventListener("click", function () {
+  menuresponsive.style.transitionDelay;
+  menuresponsive.classList.remove("active");
+});
